@@ -1,0 +1,35 @@
+img{
+    width: 700px;
+    height: 700px;
+    border-radius: 10%;
+    margin-right: 50px;
+}
+body{
+    font-family: montserrat;
+    background: url("./фон-1.jpg");
+    background-size:100%;
+}
+.nayavnist{
+    color: green;
+}
+.nenayavnist{
+	color:red;
+}
+.back{
+	height:100px;
+	width:100px;
+}
+@media screen and (max-width:1000px){
+	body{
+		display:flex;
+		flex-direction:column;
+	}
+    .back{
+        height:70px;
+        width:70px;
+    }
+    img{
+        width:350px;
+        height:350px;
+    }
+} 

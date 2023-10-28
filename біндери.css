@@ -1,0 +1,45 @@
+body{
+    background: url("./фон-1.jpg");
+    background-size:100%;
+    font-family: montserrat;
+}
+.nayavnist{
+    color: green;
+}
+.img_binders{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.binders_div{
+    background-color: darksalmon;
+    width:300px;
+    padding:20px 20px 20px 20px;
+    border-radius: 10%;
+	width:300px;
+	margin:0 auto;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;;
+    margin:0 auto;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width:1000px){
+	.main{
+		display:flex;
+		flex-direction:column;
+		width:400px;
+		margin: 0 auto;
+	}
+	.binders_div{
+		margin-top:20px;
+	}
+    .back{
+        height:70px;
+        width:70px;
+    }
+}
